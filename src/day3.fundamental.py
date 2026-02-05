@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb  4 06:26:32 2026
 
-@author: dell
-"""
 
 student_list=["heer",24,8.86]
 print(student_list)

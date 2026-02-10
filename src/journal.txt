@@ -5,3 +5,5 @@ sleep-goal
 play-goal
 enjoy-goal
 g-goal
+aleep-goal
+run-goal

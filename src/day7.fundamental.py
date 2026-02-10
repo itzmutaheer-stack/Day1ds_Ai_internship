@@ -51,10 +51,31 @@ with open("journal.txt","r")as file:
 #task2
 import csv
 
-with open("student.csv","r")as file:
-    reader=csv.dictreader(file)
+with open("students.csv","r")as file:
+    reader=csv.DictReader(file)
     
-    print()
+    print("students who has passed:")
+    for row in reader:
+        if row ["Status"]=="Pass":
+            print(row["Name"])
+            
+# task 3
+
+
+filename = input("Enter the filename (e.g., config.txt): ")
+
+try:
+    with open(filename, "r") as file:
+        content = file.read()
+        print("\nFile contents:\n")
+        print(content)
+
+except FileNotFoundError:
+    print("Oops! That file doesn't exist yet.")   
+    
+        
+            
+            
     
 
         

@@ -33,3 +33,4 @@ final_array=reshaped.transpose(0,2,1)
 print("final shape",final_array.shape)
 print(final_array)
 
+

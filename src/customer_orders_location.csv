@@ -1,0 +1,7 @@
+Order_ID,Customer_ID,Location,Price,Date
+101,1, New York,$2500,2026-01-01
+102,2,new york,$1800,2026-01-02
+103,3,NEW YORK ,$3200,2026-01-03
+104,4, New York ,$1500,2026-01-04
+105,5,new york ,$2100,2026-01-05
+106,6,NEW YORK,$3000,2026-01-06

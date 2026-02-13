@@ -62,8 +62,6 @@ print("\nData cleaning completed successfully!")
 
 #Task 2
 
-
-
 import pandas as pd
 
 df = pd.read_csv("customer_orders_clean.csv")
@@ -101,6 +99,7 @@ df["Location"] = df["Location"].str.title()
 # Step 5: Check unique values after cleaning
 print("\nAfter Cleaning:")
 print(df["Location"].unique())
+
       
 
 
